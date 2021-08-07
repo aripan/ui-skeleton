@@ -1,6 +1,5 @@
 import styles from "../styles/Layout.module.css"
 
-
 const MainComponent = () => {
     return (
         <div className={styles.main}>
