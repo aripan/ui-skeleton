@@ -1,6 +1,14 @@
+import FooterComponent from "../components/FooterComponent"
+import HeaderComponent from "../components/HeaderComponent"
+import MainComponent from "../components/MainComponent"
 
 export default function Home() {
   return (
-    <h1 className="text-8xl">Hello</h1>
+    <div>
+      <HeaderComponent/>
+      <MainComponent/>
+      <FooterComponent/>
+    </div>
+    
   )
 }

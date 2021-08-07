@@ -1,9 +1,10 @@
-import React from 'react'
+import styles from "../styles/Layout.module.css"
 
-const Layout = () => {
+
+const Layout = ({children}) => {
     return (
-        <div>
-            
+        <div className={styles.container}>
+            {children}
         </div>
     )
 }
